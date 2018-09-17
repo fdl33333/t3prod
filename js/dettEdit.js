@@ -136,10 +136,11 @@ function dettEdit(winpos) {
     // TOOLBAR ///////////////////////////////////////////////////////////////
     anaToolbar = dettLayout.cells("a").attachToolbar();
     anaToolbar.setIconsPath("../assets/DHTMLX46/icons/");
-    anaToolbar.addButton("tRet",1,"Lista Detenuti","User group.ico","plus.ico");
-    anaToolbar.addButton("tAna",2,"Anagrafica","Male.ico","plus.ico");
-    anaToolbar.addButton("tWL",3,"Numeri Consentiti","Phone.ico","plus.ico");   
-    anaToolbar.addButton("tHist",4,"Storio Chiamate","List.ico","plus.ico");   
+    
+    anaToolbar.addButton("tRet",1,"Lista Detenuti","User group.ico","User group-sel.ico");
+    anaToolbar.addButton("tAna",2,"Anagrafica","Male.ico","Male-sel.ico");
+    anaToolbar.addButton("tWL",3,"Numeri Consentiti","Phone.ico","Phone-sel.ico");   
+    anaToolbar.addButton("tHist",4,"Storio Chiamate","List.ico","List-sel.ico");   
     anaToolbar.disableItem("tAna");
        
     anaToolbar.attachEvent("onClick", function(id) {
@@ -212,7 +213,7 @@ function dettEdit(winpos) {
 	,	{type:'input',  	name:'matr',  	position:'absolute',    inputTop:113,    inputLeft: 110, inputWidth:80, maxLength:20}
 
    	,	{type:'label',     label:'Tipo Crimine',   	position:'absolute',    labelTop:146,     labelLeft: 5, labelWidth: 200}		
-	,	{type:'select',  	name:'ctypeId',  	position:'absolute',    inputTop:148,    inputLeft: 110, inputWidth:200, connector:"../cn/cTypeList.php" }
+	,	{type:'select',  	name:'ctypeId',  	position:'absolute',    inputTop:148,    inputLeft: 110, inputWidth:200, connector:"../cn/ctypeList.php" }
 
    	,	{type:'label',     label:'Lingua',   	position:'absolute',    labelTop:181,     labelLeft: 5, labelWidth: 200}		
 	,	{type:'select',  	name:'langCode',  	position:'absolute',    inputTop:183,    inputLeft: 110, inputWidth:200
@@ -422,10 +423,10 @@ function dettEdit(winpos) {
     wlTb = dettLayout.cells("a").attachToolbar();
     wlTb.setIconsPath("../assets/DHTMLX46/icons/");
     
-    wlTb.addButton("tRet",1,"Lista Detenuti","User group.ico","User group.ico");
-    wlTb.addButton("tAna",2,"Anagrafica","Male.ico","Male.ico");
-    wlTb.addButton("tWL",3,"Numeri Consentiti","Phone.ico","Phone.ico");   
-    wlTb.addButton("tHist",4,"Storio Chiamate","List.ico","List.ico");   
+    wlTb.addButton("tRet",1,"Lista Detenuti","User group.ico","User group-sel.ico");
+    wlTb.addButton("tAna",2,"Anagrafica","Male.ico","Male-sel.ico");
+    wlTb.addButton("tWL",3,"Numeri Consentiti","Phone.ico","Phone-sel.ico");   
+    wlTb.addButton("tHist",4,"Storio Chiamate","List.ico","List-sel.ico");   
     wlTb.disableItem("tWL");
     wlTb.addSeparator("sep1",5);
     wlTb.addSeparator("sep2",6);
@@ -546,10 +547,10 @@ function dettEdit(winpos) {
     histTb.setIconsPath("../assets/DHTMLX46/icons/");
 
     
-    histTb.addButton("tRet",1,"Lista Detenuti","User group.ico","User group.ico");
-    histTb.addButton("tAna",2,"Anagrafica","Male.ico","Male.ico");
-    histTb.addButton("tWL",3,"Numeri Consentiti","Phone.ico","Phone.ico");   
-    histTb.addButton("tHist",4,"Storio Chiamate","List.ico","List.ico");   
+    histTb.addButton("tRet",1,"Lista Detenuti","User group.ico","User group-sel.ico");
+    histTb.addButton("tAna",2,"Anagrafica","Male.ico","Male-sel.ico");
+    histTb.addButton("tWL",3,"Numeri Consentiti","Phone.ico","Phone-sel.ico");   
+    histTb.addButton("tHist",4,"Storio Chiamate","List.ico","List-sel.ico");   
     histTb.disableItem("tHist");
     histTb.addSeparator("sep1",5);
     histTb.addSeparator("sep1",6);
