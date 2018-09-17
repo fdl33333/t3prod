@@ -1,0 +1,538 @@
+
+    
+PHP Warning:  socket_bind(): unable to bind address [98]: Address already in use in /var/www/html/callMonSrv3.php on line 16
+sending AUTH ClueCon
+
+    
+sending AUTH ClueCon
+192.168.0.101 connected
+received : é
+** Unknown message type 
+192.168.0.101 disconnected
+192.168.0.101 connected
+received : é
+** Unknown message type 
+192.168.0.101 disconnected
+192.168.0.101 connected
+
+********************
+ERROR:MySQL server has gone away
+********************
+
+********************
+ERROR:MySQL server has gone away
+********************
+
+********************
+ERROR:MySQL server has gone away
+********************
+
+********************
+ERROR:MySQL server has gone away
+********************
+received : é
+** Unknown message type 
+192.168.0.101 disconnected
+192.168.0.101 connected
+192.168.0.101 connected
+
+********************
+ERROR:MySQL server has gone away
+********************
+
+********************
+ERROR:MySQL server has gone away
+********************
+received : é
+** Unknown message type 
+192.168.0.101 disconnected
+
+[3;J[H[2JStarting Up
+
+
+Getting constants
+	MIN_RECOVER = 40
+	REC_PATH = /recordings/
+	DURATIONS = 2,5,10
+	SPY_EXT = 1018,1017,1016,1015
+	OP_EXT = 1000
+	SCRIPT_EXT = 9111
+	CALL_MON_PORT = 9000
+	SPY_PWD = passw0rd
+Operator Extensions
+Array
+(
+    [0] => 1000
+)
+
+socket change
+Array
+(
+    [type] => system
+    [message] => 192.168.0.101 Connected
+)
+
+192.168.0.101 connected
+sending pars
+Sending command: api show registrations
+Array
+(
+    [type] => pars
+    [spyPwd] => passw0rd
+    [spyExt] => 1015
+)
+
+----------------------------------
+EVT:CHANNEL_CREATE - det: - uid:177e5986-ea83-453f-9b93-f67f49e71f58 - uia: - CID:177e5986-ea83-453f-9b93-f67f49e71f58 - OID: - STT:CS_INIT - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuti alza cornetta
+    [tmbeg] => 07:13:00
+    [uid] => 177e5986-ea83-453f-9b93-f67f49e71f58
+    [org] => Int:1005
+    [orgDescr] => Interno detenuti sollevato
+    [dst] => 
+    [dstDescr] => 
+    [bgcol] => #ffff00
+    [blink] => 0
+    [hangup] => 0
+    [ctStart] => 1536131580
+    [type] => calldata
+)
+
+EVT:CHANNEL_ANSWER - det: - uid:177e5986-ea83-453f-9b93-f67f49e71f58 - uia: - CID:177e5986-ea83-453f-9b93-f67f49e71f58 - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+EVT:CHANNEL_HANGUP - det: - uid:177e5986-ea83-453f-9b93-f67f49e71f58 - uia: - CID:177e5986-ea83-453f-9b93-f67f49e71f58 - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuto Termina Diretta
+    [uid] => 177e5986-ea83-453f-9b93-f67f49e71f58
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => 177e5986-ea83-453f-9b93-f67f49e71f58
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_CREATE - det: - uid:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - uia: - CID:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - OID: - STT:CS_INIT - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuti alza cornetta
+    [tmbeg] => 07:13:09
+    [uid] => cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a
+    [org] => Int:1005
+    [orgDescr] => Interno detenuti sollevato
+    [dst] => 
+    [dstDescr] => 
+    [bgcol] => #ffff00
+    [blink] => 0
+    [hangup] => 0
+    [ctStart] => 1536131589
+    [type] => calldata
+)
+
+EVT:CHANNEL_ANSWER - det: - uid:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - uia: - CID:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+EVT:CHANNEL_OUTGOING - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia: - CID:c3580857-9606-4810-a48f-4c51a104ab59 - OID: - STT:CS_NONE - EXT: - NUM:1000
+EVT:CHANNEL_CREATE - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:c3580857-9606-4810-a48f-4c51a104ab59 - OID: - STT:CS_INIT - EXT: - NUM:1000
+EVT:CHANNEL_ORIGINATE - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:c3580857-9606-4810-a48f-4c51a104ab59 - OID: - STT:CS_INIT - EXT: - NUM:1000
+EVT:CHANNEL_PROGRESS - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:c3580857-9606-4810-a48f-4c51a104ab59 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_ANSWER - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:c3580857-9606-4810-a48f-4c51a104ab59 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_OUTGOING - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia: - CID:c3580857-9606-4810-a48f-4c51a104ab59 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_BRIDGE - det: - uid:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - uia: - CID:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+EVT:CHANNEL_HANGUP - det: - uid:c3580857-9606-4810-a48f-4c51a104ab59 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - OID: - STT:CS_EXCHANGE_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_HANGUP - det: - uid:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - uia: - CID:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuto Termina Diretta
+    [uid] => cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_OUTGOING - det: - uid:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - uia: - CID:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - OID: - STT:CS_NONE - EXT: - NUM:0656569224
+EVT:CHANNEL_CREATE - det:1 - uid:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - OID: - STT:CS_INIT - EXT: - NUM:0656569224
+Array
+(
+    [evtDescr] => Detenuto Chiama
+    [uid] => cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a
+    [org] => Int:1005 Tessera:99999
+    [orgDescr] => Facco de Lagarda Francesco
+    [dst] => 0656569224
+    [dstDescr] => 
+    [bgcol] => #ffff00
+    [blink] => 0
+    [hangup] => 0
+    [record] => 1
+    [secsGrace] => 0
+    [secsMax] => 120
+    [type] => calldata
+)
+
+EVT:CHANNEL_ORIGINATE - det:1 - uid:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - OID: - STT:CS_INIT - EXT: - NUM:0656569224
+EVT:CHANNEL_CREATE - det: - uid:d7d59fde-0016-4d54-8058-4a85079a8161 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID: - STT:CS_INIT - EXT:5406087369 - NUM:5406087369
+EVT:CHANNEL_OUTGOING - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_NONE - EXT:5406087369 - NUM:1000
+EVT:CHANNEL_OUTGOING - det: - uid:62f14343-0e22-44ce-b683-020497246e70 - uia: - CID:62f14343-0e22-44ce-b683-020497246e70 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_NONE - EXT:5406087369 - NUM:1006
+EVT:CHANNEL_CREATE - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_INIT - EXT:5406087369 - NUM:1000
+Array
+(
+    [evtDescr] => Chiamata entrante ad operatore
+    [uid] => d7d59fde-0016-4d54-8058-4a85079a8161
+    [org] => 5406087369
+    [orgDescr] => Chiamata Entrante
+    [dst] => 1000
+    [dstDescr] => Posto Operatore
+    [bgcol] => #ffff00
+    [blink] => 1
+    [hangup] => 0
+    [ctStart] => 1536131616
+    [type] => calldata
+)
+
+EVT:CHANNEL_ORIGINATE - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_INIT - EXT:5406087369 - NUM:1000
+EVT:CHANNEL_CREATE - det: - uid:62f14343-0e22-44ce-b683-020497246e70 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_INIT - EXT:5406087369 - NUM:1006
+EVT:CHANNEL_ORIGINATE - det: - uid:62f14343-0e22-44ce-b683-020497246e70 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_INIT - EXT:5406087369 - NUM:1006
+EVT:CHANNEL_PROGRESS - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_CONSUME_MEDIA - EXT:5406087369 - NUM:1000
+EVT:CHANNEL_PROGRESS - det: - uid:d7d59fde-0016-4d54-8058-4a85079a8161 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID: - STT:CS_EXECUTE - EXT:5406087369 - NUM:2003
+EVT:CHANNEL_PROGRESS - det:1 - uid:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:0656569224
+EVT:CHANNEL_PROGRESS - det: - uid:62f14343-0e22-44ce-b683-020497246e70 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_CONSUME_MEDIA - EXT:5406087369 - NUM:1006
+EVT:CHANNEL_ANSWER - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_CONSUME_MEDIA - EXT:5406087369 - NUM:1000
+Array
+(
+    [evtDescr] => Operatore Risponde a chiamata Entrante
+    [tmbeg] => 07:13:40
+    [ctStart] => 1536131620
+    [uid] => d7d59fde-0016-4d54-8058-4a85079a8161
+    [bgcol] => #23ff23
+    [blink] => 0
+    [hangup] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HANGUP - det: - uid:62f14343-0e22-44ce-b683-020497246e70 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_CONSUME_MEDIA - EXT:5406087369 - NUM:1006
+EVT:CHANNEL_ANSWER - det: - uid:d7d59fde-0016-4d54-8058-4a85079a8161 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID: - STT:CS_EXECUTE - EXT:5406087369 - NUM:2003
+EVT:CHANNEL_OUTGOING - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_CONSUME_MEDIA - EXT:5406087369 - NUM:1000
+EVT:CHANNEL_BRIDGE - det: - uid:d7d59fde-0016-4d54-8058-4a85079a8161 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - STT:CS_EXECUTE - EXT:5406087369 - NUM:2003
+EVT:CHANNEL_ANSWER - det:1 - uid:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:0656569224
+Array
+(
+    [evtDescr] => Detenuto Collegato
+    [uid] => cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a
+    [tmbeg] => 07:13:40
+    [ctStart] => 1536131620
+    [bgcol] => #23ff23
+    [blink] => 0
+    [hangup] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HOLD - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_EXCHANGE_MEDIA - EXT:5406087369 - NUM:1000
+Array
+(
+    [evtDescr] => PO mette esterno in attesa
+    [uid] => d7d59fde-0016-4d54-8058-4a85079a8161
+    [bgcol] => #76c0ff
+    [blink] => 0
+    [hangup] => 0
+    [record] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HANGUP - det:1 - uid:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - uia:cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a - CID:cee0f9f8-3e5e-4921-b0a7-602c133ca007 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:0656569224
+Array
+(
+    [evtDescr] => Detenuto Termina Diretta
+    [uid] => cbbcf8f3-3f0c-447b-a9b6-d55e28434f7a
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => cee0f9f8-3e5e-4921-b0a7-602c133ca007
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+============= RECEIVED COMMAND FROM callMon ====================
+Sending command: api uuid_kill d7d59fde-0016-4d54-8058-4a85079a8161
+EVT:CHANNEL_HANGUP - det: - uid:d7d59fde-0016-4d54-8058-4a85079a8161 - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - STT:CS_EXECUTE - EXT:5406087369 - NUM:2003
+EVT:CHANNEL_HANGUP - det: - uid:0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e - uia: - CID:d7d59fde-0016-4d54-8058-4a85079a8161 - OID:d7d59fde-0016-4d54-8058-4a85079a8161 - STT:CS_EXCHANGE_MEDIA - EXT:5406087369 - NUM:1000
+Array
+(
+    [evtDescr] => Operatore Termina Entrante
+    [uid] => d7d59fde-0016-4d54-8058-4a85079a8161
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => 0dcabf2a-e4f7-453f-a0e6-3bf70eb6431e
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HANGUP - det: - uid:4b53c30a-0bc6-4d53-bfa2-8377f0f50527 - uia: - CID:4b53c30a-0bc6-4d53-bfa2-8377f0f50527 - OID: - STT:CS_NEW - EXT: - NUM:
+EVT:CHANNEL_CREATE - det: - uid:04d017de-6c07-4fb8-a40f-7d79d5e28a2c - uia: - CID:04d017de-6c07-4fb8-a40f-7d79d5e28a2c - OID: - STT:CS_INIT - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuti alza cornetta
+    [tmbeg] => 07:14:59
+    [uid] => 04d017de-6c07-4fb8-a40f-7d79d5e28a2c
+    [org] => Int:1005
+    [orgDescr] => Interno detenuti sollevato
+    [dst] => 
+    [dstDescr] => 
+    [bgcol] => #ffff00
+    [blink] => 0
+    [hangup] => 0
+    [ctStart] => 1536131699
+    [type] => calldata
+)
+
+EVT:CHANNEL_ANSWER - det: - uid:04d017de-6c07-4fb8-a40f-7d79d5e28a2c - uia: - CID:04d017de-6c07-4fb8-a40f-7d79d5e28a2c - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+EVT:CHANNEL_HANGUP - det: - uid:04d017de-6c07-4fb8-a40f-7d79d5e28a2c - uia: - CID:04d017de-6c07-4fb8-a40f-7d79d5e28a2c - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuto Termina Diretta
+    [uid] => 04d017de-6c07-4fb8-a40f-7d79d5e28a2c
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => 04d017de-6c07-4fb8-a40f-7d79d5e28a2c
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_CREATE - det: - uid:f6df762a-3512-44c0-8fc4-83f8817035d1 - uia: - CID:f6df762a-3512-44c0-8fc4-83f8817035d1 - OID: - STT:CS_INIT - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuti alza cornetta
+    [tmbeg] => 07:15:31
+    [uid] => f6df762a-3512-44c0-8fc4-83f8817035d1
+    [org] => Int:1005
+    [orgDescr] => Interno detenuti sollevato
+    [dst] => 
+    [dstDescr] => 
+    [bgcol] => #ffff00
+    [blink] => 0
+    [hangup] => 0
+    [ctStart] => 1536131731
+    [type] => calldata
+)
+
+EVT:CHANNEL_ANSWER - det: - uid:f6df762a-3512-44c0-8fc4-83f8817035d1 - uia: - CID:f6df762a-3512-44c0-8fc4-83f8817035d1 - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+EVT:CHANNEL_OUTGOING - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia: - CID:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - OID: - STT:CS_NONE - EXT: - NUM:1000
+EVT:CHANNEL_CREATE - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - OID: - STT:CS_INIT - EXT: - NUM:1000
+EVT:CHANNEL_ORIGINATE - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - OID: - STT:CS_INIT - EXT: - NUM:1000
+EVT:CHANNEL_PROGRESS - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_ANSWER - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_OUTGOING - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia: - CID:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_BRIDGE - det: - uid:f6df762a-3512-44c0-8fc4-83f8817035d1 - uia: - CID:f6df762a-3512-44c0-8fc4-83f8817035d1 - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+============= RECEIVED COMMAND FROM callMon ====================
+Sending command: api originate {sip_secure_media=true}user/1015 &eavesdrop(f6df762a-3512-44c0-8fc4-83f8817035d1)
+EVT:CHANNEL_OUTGOING - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_NONE - EXT: - NUM:1015
+EVT:CHANNEL_CREATE - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_INIT - EXT: - NUM:1015
+EVT:CHANNEL_ORIGINATE - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_INIT - EXT: - NUM:1015
+EVT:CHANNEL_PROGRESS - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_ANSWER - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_OUTGOING - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+============= RECEIVED COMMAND FROM callMon ====================
+Sending command: api originate {sip_secure_media=true}user/1015 &eavesdrop()
+EVT:CHANNEL_OUTGOING - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_NONE - EXT: - NUM:1015
+EVT:CHANNEL_CREATE - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_INIT - EXT: - NUM:1015
+EVT:CHANNEL_ORIGINATE - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_INIT - EXT: - NUM:1015
+EVT:CHANNEL_PROGRESS - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_HANGUP - det: - uid:f615002f-9dc4-4252-8af3-dc9a29dc2230 - uia: - CID:f615002f-9dc4-4252-8af3-dc9a29dc2230 - OID: - STT:CS_EXECUTE - EXT: - NUM:1015
+EVT:CHANNEL_ANSWER - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_OUTGOING - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_HANGUP - det: - uid:facf1df9-d064-4df0-991b-da155e3f5326 - uia: - CID:facf1df9-d064-4df0-991b-da155e3f5326 - OID: - STT:CS_EXECUTE - EXT: - NUM:1015
+============= RECEIVED COMMAND FROM callMon ====================
+Sending command: api originate {sip_secure_media=true}user/1015 &eavesdrop(f6df762a-3512-44c0-8fc4-83f8817035d1)
+EVT:CHANNEL_OUTGOING - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_NONE - EXT: - NUM:1015
+EVT:CHANNEL_CREATE - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_INIT - EXT: - NUM:1015
+EVT:CHANNEL_ORIGINATE - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_INIT - EXT: - NUM:1015
+EVT:CHANNEL_PROGRESS - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_ANSWER - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_OUTGOING - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:1015
+EVT:CHANNEL_HANGUP - det: - uid:f6df762a-3512-44c0-8fc4-83f8817035d1 - uia: - CID:f6df762a-3512-44c0-8fc4-83f8817035d1 - OID: - STT:CS_EXECUTE - EXT:1005 - NUM:9111
+Array
+(
+    [evtDescr] => Detenuto Termina Diretta
+    [uid] => f6df762a-3512-44c0-8fc4-83f8817035d1
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => f6df762a-3512-44c0-8fc4-83f8817035d1
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HANGUP - det: - uid:2b24ddc4-5b42-4fa2-8a84-07eed7100718 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:f6df762a-3512-44c0-8fc4-83f8817035d1 - OID: - STT:CS_EXCHANGE_MEDIA - EXT: - NUM:1000
+EVT:CHANNEL_OUTGOING - det: - uid:dad6b38b-d43c-4abf-832d-4bcec6500921 - uia: - CID:dad6b38b-d43c-4abf-832d-4bcec6500921 - OID: - STT:CS_NONE - EXT: - NUM:069087651
+EVT:CHANNEL_CREATE - det:1 - uid:dad6b38b-d43c-4abf-832d-4bcec6500921 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:dad6b38b-d43c-4abf-832d-4bcec6500921 - OID: - STT:CS_INIT - EXT: - NUM:069087651
+Array
+(
+    [evtDescr] => Detenuto Chiama
+    [uid] => f6df762a-3512-44c0-8fc4-83f8817035d1
+    [org] => Int:1005 Tessera:99999
+    [orgDescr] => Facco de Lagarda Francesco
+    [dst] => 069087651
+    [dstDescr] => 
+    [bgcol] => #ffff00
+    [blink] => 0
+    [hangup] => 0
+    [record] => 1
+    [secsGrace] => 0
+    [secsMax] => 120
+    [type] => calldata
+)
+
+EVT:CHANNEL_ORIGINATE - det:1 - uid:dad6b38b-d43c-4abf-832d-4bcec6500921 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:dad6b38b-d43c-4abf-832d-4bcec6500921 - OID: - STT:CS_INIT - EXT: - NUM:069087651
+EVT:CHANNEL_HANGUP - det: - uid:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - uia: - CID:a4cc0061-bcd2-463b-9d44-0dedbb4a1948 - OID: - STT:CS_EXECUTE - EXT: - NUM:1015
+EVT:CHANNEL_PROGRESS - det:1 - uid:dad6b38b-d43c-4abf-832d-4bcec6500921 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:dad6b38b-d43c-4abf-832d-4bcec6500921 - OID: - STT:CS_CONSUME_MEDIA - EXT: - NUM:069087651
+EVT:CHANNEL_HANGUP - det:1 - uid:dad6b38b-d43c-4abf-832d-4bcec6500921 - uia:f6df762a-3512-44c0-8fc4-83f8817035d1 - CID:dad6b38b-d43c-4abf-832d-4bcec6500921 - OID: - STT:CS_HANGUP - EXT: - NUM:069087651
+Array
+(
+    [evtDescr] => Detenuto Termina Diretta
+    [uid] => f6df762a-3512-44c0-8fc4-83f8817035d1
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => dad6b38b-d43c-4abf-832d-4bcec6500921
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_CREATE - det: - uid:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID: - STT:CS_INIT - EXT:1019 - NUM:2003
+EVT:CHANNEL_OUTGOING - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:63593d05-3d37-4248-88a4-630da785e1bf - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_NONE - EXT:1019 - NUM:1000
+EVT:CHANNEL_CREATE - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_INIT - EXT:1019 - NUM:1000
+Array
+(
+    [evtDescr] => Chiamata entrante ad operatore
+    [uid] => 94e204a1-33f9-49e8-92fd-41f3d2fda1d6
+    [org] => 1019
+    [orgDescr] => Chiamata Entrante
+    [dst] => 1000
+    [dstDescr] => Posto Operatore
+    [bgcol] => #ffff00
+    [blink] => 1
+    [hangup] => 0
+    [ctStart] => 1536131843
+    [type] => calldata
+)
+
+EVT:CHANNEL_ORIGINATE - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_INIT - EXT:1019 - NUM:1000
+EVT:CHANNEL_OUTGOING - det: - uid:d52a5828-1738-493a-ad10-250a5029a08b - uia: - CID:d52a5828-1738-493a-ad10-250a5029a08b - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_NONE - EXT:1019 - NUM:1006
+EVT:CHANNEL_CREATE - det: - uid:d52a5828-1738-493a-ad10-250a5029a08b - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_INIT - EXT:1019 - NUM:1006
+EVT:CHANNEL_ORIGINATE - det: - uid:d52a5828-1738-493a-ad10-250a5029a08b - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_INIT - EXT:1019 - NUM:1006
+EVT:CHANNEL_PROGRESS - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_CONSUME_MEDIA - EXT:1019 - NUM:1000
+EVT:CHANNEL_PROGRESS - det: - uid:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID: - STT:CS_EXECUTE - EXT:1019 - NUM:2003
+EVT:CHANNEL_PROGRESS - det: - uid:d52a5828-1738-493a-ad10-250a5029a08b - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_CONSUME_MEDIA - EXT:1019 - NUM:1006
+EVT:CHANNEL_ANSWER - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_CONSUME_MEDIA - EXT:1019 - NUM:1000
+Array
+(
+    [evtDescr] => Operatore Risponde a chiamata Entrante
+    [tmbeg] => 07:17:26
+    [ctStart] => 1536131846
+    [uid] => 94e204a1-33f9-49e8-92fd-41f3d2fda1d6
+    [bgcol] => #23ff23
+    [blink] => 0
+    [hangup] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HANGUP - det: - uid:d52a5828-1738-493a-ad10-250a5029a08b - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_CONSUME_MEDIA - EXT:1019 - NUM:1006
+EVT:CHANNEL_ANSWER - det: - uid:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID: - STT:CS_EXECUTE - EXT:1019 - NUM:2003
+EVT:CHANNEL_OUTGOING - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_CONSUME_MEDIA - EXT:1019 - NUM:1000
+EVT:CHANNEL_BRIDGE - det: - uid:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:63593d05-3d37-4248-88a4-630da785e1bf - STT:CS_EXECUTE - EXT:1019 - NUM:2003
+EVT:CHANNEL_HANGUP - det: - uid:63593d05-3d37-4248-88a4-630da785e1bf - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - STT:CS_EXCHANGE_MEDIA - EXT:1019 - NUM:1000
+Array
+(
+    [evtDescr] => Operatore Termina Entrante
+    [uid] => 94e204a1-33f9-49e8-92fd-41f3d2fda1d6
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+Array
+(
+    [evtDescr] => Hangup Generico
+    [uid] => 63593d05-3d37-4248-88a4-630da785e1bf
+    [bgcol] => #c0c0c0
+    [blink] => 0
+    [hangup] => 1
+    [ctStart] => 0
+    [type] => calldata
+)
+
+EVT:CHANNEL_HANGUP - det: - uid:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - uia: - CID:94e204a1-33f9-49e8-92fd-41f3d2fda1d6 - OID:63593d05-3d37-4248-88a4-630da785e1bf - STT:CS_EXECUTE - EXT:1019 - NUM:2003
