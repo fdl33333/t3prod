@@ -1,6 +1,6 @@
 function dettAcc(winpos) {
 
-    var isNew = false;
+    var isNew = false; 
     var currVisuserId = 0;
 	
 	

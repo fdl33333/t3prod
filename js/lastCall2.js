@@ -1,6 +1,6 @@
 function lastCall2(winpos) {
 
-	var dettId = 0;
+	var dettId = 0; 
 		
 
 	

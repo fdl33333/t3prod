@@ -1,6 +1,6 @@
 function dettEdit(winpos) {
 
-	var dettId = 0;
+	var dettId = 0; 
 	var wlId = 0;
 	var cpChanged = false;
 	
