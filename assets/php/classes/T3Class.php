@@ -155,7 +155,10 @@ class t3 {
 		if (sizeof($of)==0)	
 			return(["status"	=> STATUS_OK, "freeOp" => ""]);
 		else {
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 6778eb90230326c5d39088ab2a1cd9842a38eb5b
 			return(["status"	=> STATUS_OK, "freeOp" => reset($of)]);
 		}
 		
