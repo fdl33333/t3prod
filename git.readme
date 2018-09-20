@@ -1,0 +1,6 @@
+
+git status
+git add .
+git commit -m "2018-09-17 16:15"
+git push -u origin master
+
